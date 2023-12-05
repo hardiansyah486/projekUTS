@@ -22,3 +22,11 @@ Route::get('/data_barang/{id}',[DataBarangController::class, 'Index']);
 Route::get('/create', [DataBarangController::class, 'create']);
 Route::post('/store', [DataBarangController::class, 'store']);
 Route::get('/hasil',[DataBarangController::class, 'index']);
+Route::get('/delete_test/{id}',[DataBarangController::class, 'hapus_get']);
+
+Route::get('/utama', function () {
+    return view('list_Inventorys');
+});
+Route::get('/delete/{id}', [DataBarangController::class, 'destroy']);
+Route::get('/edit/{id}', [DataBarangController::class, 'edit']);
+Route::get('/update/{id}', [DataBarangController::class, 'update']);

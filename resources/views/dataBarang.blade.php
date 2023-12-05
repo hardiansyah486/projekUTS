@@ -13,7 +13,7 @@
               </p>
               <form class="forms-sample">
                 <div class="form-group">
-                  <label for="exampleInputKodebarang">Kode Barang</label>
+                  <label for="Kode_barang">Kode Barang</label>
                   <input type="text" class="form-control" id="exampleInputKodeBarang" placeholder="KodeBarang">
                 </div>
                 <div class="form-group">

@@ -26,6 +26,8 @@
 <body>
     @yield('form_inputan')
     @yield('hasil_inputan')
+    @yield('from_edit')
+    @include('flash::massage')
   <!-- plugins:js -->
   <script src="{{asset("/template/vendors/js/vendor.bundle.base.js")}}"></script>
   <!-- endinject -->
