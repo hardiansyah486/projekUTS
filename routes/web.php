@@ -29,4 +29,4 @@ Route::get('/utama', function () {
 });
 Route::get('/delete/{id}', [DataBarangController::class, 'destroy']);
 Route::get('/edit/{id}', [DataBarangController::class, 'edit']);
-Route::get('/update/{id}', [DataBarangController::class, 'update']);
+Route::post('/update/{id}', [DataBarangController::class, 'update']);
